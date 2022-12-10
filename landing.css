@@ -82,8 +82,9 @@ body{
 .luffy, .law, .beard, .mih{
     width: 15em;
     height: 15em;
-    transition: transform 2s;
+    transition: transform 0.7s;
     overflow: hidden;
+    border-radius: 1em;
 }
 .ran{
     position: absolute;
