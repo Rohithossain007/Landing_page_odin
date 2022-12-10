@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.upper-portion{
+    width: 100%;
+    background-color: #1f2937;
+    height: 35em;
+}
+.logo{
+    margin-top: 1em;
+    width: 5em;
+    height: 5em;
+    border-radius: 5em;
+    margin-left: 1em;
+}
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 20em;
+    margin-left: 50em;
+    margin-top: -5em;
+}
+.writings {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-right: 45em;
+    margin-left: 1em;
+}
+.crew{
+    width: 30em;
+    height: 20em;
+    margin-left: 50em;
+    margin-top: -20em;
+    margin-bottom: 5em;
+}
+.signbutton{
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: medium;
+    width: 12em;
+    margin-left: 10em;
+    height: 3em;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2em;
+}
+.signbutton:hover{
+    background-color: rgba(214, 64, 26, 0.973);
+}
+.intro{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+.para , .header{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.second{
+    /* border: solid 5px red; */
+    margin-top: -2em;
+    background-image: url(luffycrew.png);
+}
+.second{
+    background-color:rgb(114, 112, 112);
+    background-blend-mode: multiply;
+}
+.pictures{
+    display: flex;
+    margin-left: 1em;
+    height: 50em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.luffy, .law, .beard, .mih{
+    width: 15em;
+    height: 15em;
+    transition: transform 2s;
+    overflow: hidden;
+}
+.ran{
+    position: absolute;
+    color:white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+.lu, .la, .bea, .mi{
+    position: absolute;
+    color: white;
+}
+.lu{
+    font-size: 1.5em;
+    margin-top: -10em;
+    width: 10em;
+    margin-left: 4.5em;
+}
+.la{
+    font-size: 1.5em;
+    margin-top: -10em;
+    width: 10em;
+    margin-left: 17.5em;
+}
+.bea{
+    font-size: 1.5em;
+    margin-top: -10em;
+    width: 10em;
+    margin-left: 30.5em;
+}
+.mi{
+    font-size: 1.5em;
+    margin-top: -10em;
+    width: 10em;
+    margin-left: 43.5em;
+}
+.luffy:hover{
+    transform: scale(1.3);
+}
+.law:hover{
+    transform: scale(1.3);
+}
+.beard:hover{
+    transform: scale(1.3);
+}
+.mih:hover{
+    transform: scale(1.3);
+}
+.third{
+    height: 20em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
